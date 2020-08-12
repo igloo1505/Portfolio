@@ -37,11 +37,7 @@ const ContactForm = (props) => {
     }
   };
   return (
-    <div
-      className="row formRow cardStyle centerContainer"
-
-      // style={{ marginTop: "calc(50vh - 63px)", transform: "translateY(-50%)" }}
-    >
+    <div className="row formRow cardStyle centerContainer">
       <form onSubmit={onSubmit}>
         <div className="row mobileRow">
           <div
